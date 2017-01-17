@@ -1,0 +1,27 @@
+{
+  "name": "messenger-bot",
+  "version": "2.3.0",
+  "description": "FB Messenger Platform client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remixz/messenger-bot.git"
+  },
+  "keywords": [
+    "messenger",
+    "api",
+    "client",
+    "bot"
+  ],
+  "author": "Zach Bruggeman <mail@bruggie.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/remixz/messenger-bot#readme",
+  "dependencies": {
+    "request": "^2.71.0",
+    "express": "*",
+    "body-parser": "*"
+  }
+}
