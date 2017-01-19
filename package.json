@@ -1,26 +1,25 @@
 {
   "name": "messenger-bot",
-  "version": "2.3.0",
-  "description": "FB Messenger Platform client",
+  "version": "1.0.0",
+  "description": "Messenger Platform QuickStart Demo",
   "main": "index.js",
   "scripts": {
     "start": "node bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remixz/messenger-bot.git"
+    "url": "git+https://github.com/vernon99/messenger-quick-start.git"
   },
   "keywords": [
     "messenger",
-    "api",
-    "client",
-    "bot"
+    "bot",
+    "quickstart"
   ],
-  "author": "Zach Bruggeman <mail@bruggie.com>",
+  "author": "Mikhail Larionov <mlarionov@fb.com>",
   "license": "MIT",
-  "homepage": "https://github.com/remixz/messenger-bot#readme",
+  "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
   "dependencies": {
-    "request": "^2.71.0",
+    "request": "^2.72.0",
     "express": "*",
     "body-parser": "*"
   }

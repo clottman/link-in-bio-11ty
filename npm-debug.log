@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/nvm/.nvm/versions/node/v6.9.1/bin/node',
+1 verbose cli   '/home/nvm/.nvm/versions/node/v6.9.1/bin/npm',
+1 verbose cli   'cache',
+1 verbose cli   'clean' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose config Skipping project config: /app/.npmrc. (matches userconfig)
+5 silly ls normalized .
+6 silly gentlyRm /tmp/.npm/_locks is being purged
+7 verbose gentlyRm don't care about contents; nuking /tmp/.npm/_locks
+8 silly vacuum-fs purging /tmp/.npm/_locks
+9 silly vacuum-fs removing /tmp/.npm
+10 silly vacuum-fs removing /tmp
+11 silly vacuum-fs unable to remove /tmp due to EACCES: permission denied, rmdir '/tmp'
+12 verbose stack Error: EACCES: permission denied, rmdir '/tmp'
+12 verbose stack     at Error (native)
+13 verbose cwd /app
+14 error Linux 4.4.0-47-generic
+15 error argv "/home/nvm/.nvm/versions/node/v6.9.1/bin/node" "/home/nvm/.nvm/versions/node/v6.9.1/bin/npm" "cache" "clean"
+16 error node v6.9.1
+17 error npm  v3.10.8
+18 error path /tmp
+19 error code EACCES
+20 error errno -13
+21 error syscall rmdir
+22 error Error: EACCES: permission denied, rmdir '/tmp'
+22 error     at Error (native)
+22 error  { Error: EACCES: permission denied, rmdir '/tmp'
+22 error     at Error (native) errno: -13, code: 'EACCES', syscall: 'rmdir', path: '/tmp' }
+23 error Please try running this command again as root/Administrator.
+24 verbose exit [ -13, true ]
