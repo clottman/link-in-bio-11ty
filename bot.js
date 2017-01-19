@@ -16,6 +16,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+// Webhook validation
 app.get('/webhook', function(req, res) {
   if (req.query['hub.mode'] === 'subscribe' &&
       req.query['hub.verify_token'] === process.env.VERIFY_TOKEN) {
@@ -27,7 +28,7 @@ app.get('/webhook', function(req, res) {
   }
 });
 
-// Webhook validation
+// Display the web page
 app.get('/', function(req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write(messengerButton);
@@ -36,6 +37,7 @@ app.get('/', function(req, res) {
 
 // Message processing
 app.post('/webhook', function (req, res) {
+  console.log(req.body);
   var data = req.body;
 
   // Make sure this is a page subscription
