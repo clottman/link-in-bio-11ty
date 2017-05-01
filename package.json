@@ -4,7 +4,7 @@
   "description": "Messenger Platform QuickStart Demo",
   "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,6 @@
   "license": "MIT",
   "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
   "dependencies": {
-    "request": "^2.72.0",
-    "express": "*",
-    "body-parser": "*"
+    "route-parser": "0.0.5"
   }
 }
