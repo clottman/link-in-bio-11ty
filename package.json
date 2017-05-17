@@ -1,24 +1,7 @@
 {
-  "name": "messenger-bot",
+  "name": "blankity-blank",
   "version": "1.0.0",
-  "description": "Messenger Platform QuickStart Demo",
-  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vernon99/messenger-quick-start.git"
-  },
-  "keywords": [
-    "messenger",
-    "bot",
-    "quickstart"
-  ],
-  "author": "Mikhail Larionov <mlarionov@fb.com>",
-  "license": "MIT",
-  "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
-  "dependencies": {
-    "route-parser": "0.0.5"
+    "start": "date; echo hello"
   }
 }
