@@ -2,6 +2,9 @@
   "name": "blankity-blank",
   "version": "1.0.0",
   "scripts": {
-    "start": "date; echo hello"
+    "start": "date; echo hello; http-server"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
   }
 }
