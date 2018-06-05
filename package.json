@@ -2,8 +2,8 @@
   "name": "blankity-blank",
   "version": "1.0.0",
   "scripts": {
-    "start": "date; echo hello; http-server",
-    "init": "eleventy"
+    "init": "eleventy",
+    "serve": "eleventy --output=public --serve"
   },
   "dependencies": {
     "http-server": "^0.10.0",
