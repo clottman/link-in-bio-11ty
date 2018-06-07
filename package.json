@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "eleventy --input=src --output=dist",
-    "start": "eleventy --input=src --output=.dev --serve"
+    "start": "eleventy --input=src --output=dist --serve"
   },
   "dependencies": {
     "http-server": "^0.10.0",
