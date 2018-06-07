@@ -1,14 +1,14 @@
 {
   "name": "eleventy-on-glitch",
-  "description": "A starter template for 11ty (eleventy) static site generator on glitch.com"
+  "description": "A starter template for 11ty (eleventy) static site generator on glitch.com",
   "tags": [
     "eleventy",
     "11ty",
     "ssr",
-    "static"
+    "static",
     "glitch",
     "template"
-  ]
+  ],
   "version": "1.0.0",
   "scripts": {
     "build": "eleventy",
@@ -17,5 +17,6 @@
   "dependencies": {
     "http-server": "^0.10.0",
     "@11ty/eleventy": "^0.3.5"
-  }
+  },
+  "license": "MIT"
 }
