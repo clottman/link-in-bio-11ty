@@ -1,10 +1,18 @@
 {
   "name": "eleventy-on-glitch",
-  "description": "A starter template for eleventy static site generator on glitch"
+  "description": "A starter template for 11ty (eleventy) static site generator on glitch.com"
+  "tags": [
+    "eleventy",
+    "11ty",
+    "ssr",
+    "static"
+    "glitch",
+    "template"
+  ]
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy --input=src --output=dist",
-    "start": "eleventy --input=src --output=dist --serve"
+    "build": "eleventy",
+    "start": "eleventy --serve"
   },
   "dependencies": {
     "http-server": "^0.10.0",
