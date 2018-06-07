@@ -2,8 +2,8 @@
   "name": "blankity-blank",
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy --input=src --output=buikd",
-    "start": "eleventy --input=src --output=publi --serve"
+    "build": "eleventy --input=src --output=dist",
+    "start": "eleventy --input=src --output=dist --serve"
   },
   "dependencies": {
     "http-server": "^0.10.0",
