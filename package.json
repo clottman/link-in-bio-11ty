@@ -1,5 +1,6 @@
 {
-  "name": "blankity-blank",
+  "name": "eleventy-on-glitch",
+  "description": "A starter template for eleventy static site generator on glitch"
   "version": "1.0.0",
   "scripts": {
     "build": "eleventy --input=src --output=dist",
