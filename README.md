@@ -6,7 +6,7 @@
 1. Remix this project on Glitch
 2. Rename the project by clicking the project name in the top left corner of the tab, if you desire.
 3. Customize this site by modifying `src/_data/siteData.json` and adding your links in `src/_data/links.js`. 
-4. Customize the CSS as you wish. 
+4. Customize the CSS as you wish - especially the colors.
 5. Share with your friends!
 
 
