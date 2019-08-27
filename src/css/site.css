@@ -45,3 +45,9 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.glitchButton {
+  position: fixed !important;
+  top: 30px !important;
+  right: 60px !important;
+}
