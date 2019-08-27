@@ -1,10 +1,15 @@
 ---
 layout: layouts/default.njk
-pageTitle: Eleventy on Glitch
 ---
-<h1>
-Welcome to {{ siteData.name }}
-</h1>
+
+<h1>{{ siteData.name }}</h1>
 <p>
-  This is test content. This live updates while you type!
+  These are some links I like. 
 </p>
+
+<ul id="linktree">
+  {% for item in links %}
+    <li><a href="{{item.url}}">{{item.name}}</a> {{item.description}}</li>
+  {% endfor %}
+  
+</ul>

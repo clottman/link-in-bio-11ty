@@ -8,3 +8,6 @@
 3. Customize this site by modifying `src/_data/siteData.json` and adding your links in `src/_data/links.js`. 
 4. Customize the CSS as you wish. 
 5. Share with your friends!
+
+
+Icons for this project came from [IconFinder](https://www.iconfinder.com/icons/3775424/chemical_links_connection_connections_link_scheme_molecule_network_web_icon_icon). If you don't like them, upload your own (one in each size) to `assets` (click the assets button in your file list) and update the URLs in `src/_data/siteData.json`. Once you've uploaded an asset in `assets`, click the image to see its CDN URL. 
