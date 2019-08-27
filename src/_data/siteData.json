@@ -1,3 +1,14 @@
 {
-  "name": "Eleventy on Glitch"
+  "name": "My Cool Link Tree",
+  "description": "A curated list of links",
+  "createdBy": {
+    "name": "Your Name",
+    "twitter": ""
+  },
+  "siteImages": {
+    "icon16": "",
+    "icon128": "",
+    "icon256": ""
+  }
+  
 }
