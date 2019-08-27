@@ -7,9 +7,14 @@ layout: layouts/default.njk
   These are some links I like. 
 </p>
 
-<ul id="linktree">
+<ul class="linktree">
   {% for item in links %}
-    <li><a href="{{item.url}}">{{item.name}}</a> {{item.description}}</li>
+    <li><a href="{{item.url}}">{{item.name}}</a>
+      {% if item.description %}
+      <p>
+        {{item.description}}
+      </p>
+      {% endif %}
+  </li>
   {% endfor %}
-  
 </ul>
