@@ -1,6 +1,6 @@
 {
   "name": "link-tree-11ty",
-  "description": "A link tree project using eleventy",
+  "description": "A link-in-bio project using eleventy",
   "engines": {
     "node": "11.x"
   },
